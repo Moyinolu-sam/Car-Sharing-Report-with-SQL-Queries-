@@ -27,3 +27,4 @@ Season
 
 
 ### Part a: Highest Demand time
+<img width="749" height="545" alt="parta" src="https://github.com/user-attachments/assets/d8d3db46-0bcf-484c-a9f5-024e0f5ec009" />
