@@ -33,9 +33,11 @@ The date and time with the highest demand rate is 6th January 2017 at 8:00
 
 ### part b: Highest and Lowest Avg Demand
 <img width="712" height="514" alt="partb lowest" src="https://github.com/user-attachments/assets/a9158758-5485-4913-b1f6-2a7687b657f2" />
+
 #### LOWEST
 
 <img width="761" height="624" alt="partb highest" src="https://github.com/user-attachments/assets/0458c4d1-7869-4ea5-9646-d19f24fc662e" />
+
 #### HIGHEST
 
 ### part c: Hour Demand
