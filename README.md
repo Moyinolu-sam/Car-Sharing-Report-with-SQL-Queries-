@@ -24,3 +24,19 @@ Hour
 Weekday
 Month
 Season
+
+
+### Part a: Highest Demand time
+SELECT *
+FROM carsharing_df c
+JOIN time t
+ON c.id = t.id;
+
+
+SELECT t.timestamp, c.demand
+FROM carsharing_df c
+JOIN time t
+ON c.id = t.id
+ORDER BY c.demand DESC
+LIMIT 1;
+#gives the highest demand rate 2017
