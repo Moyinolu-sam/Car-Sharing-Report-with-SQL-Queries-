@@ -12,7 +12,7 @@ This project analyzes car sharing demand patterns in the year 2017 using SQL que
 
 ### Dataset Features
 
-The dataset includes:
+The dataset includes:\n
 ID
 Timestamp
 Demand
