@@ -45,13 +45,13 @@ The date and time with the highest demand rate is 6th January 2017 at 8:00
 <img width="687" height="598" alt="partc result" src="https://github.com/user-attachments/assets/f7e74ff1-50a1-4fb5-9b4d-f02496494042" />
 
 #### code used:
-SELECT t.hour,
-       AVG(c.demand) AS avg_demand
-FROM carsharing_df c
-JOIN time t ON c.id = t.id
-WHERE YEAR(t.timestamp) = 2017
-  AND t.week_day_name IN ("MONDAY", "SATURDAY")
-GROUP BY t.hour
+SELECT t.hour,<br>
+       AVG(c.demand) AS avg_demand<br>
+FROM carsharing_df c<br>
+JOIN time t ON c.id = t.id<br>
+WHERE YEAR(t.timestamp) = 2017<br>
+  AND t.week_day_name IN ("MONDAY", "SATURDAY")<br>
+GROUP BY t.hour<br>
 ORDER BY t.hour;
 
 
