@@ -43,6 +43,7 @@ The date and time with the highest demand rate is 6th January 2017 at 8:00
 ### part c: Hour Demand
 
 <img width="687" height="598" alt="partc result" src="https://github.com/user-attachments/assets/f7e74ff1-50a1-4fb5-9b4d-f02496494042" />
+
 #### code used:
 SELECT t.hour,
        AVG(c.demand) AS avg_demand
